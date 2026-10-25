@@ -3,13 +3,10 @@
 
   --bg: #090a0d;
   --card: rgba(15, 16, 20, 0.72);
-  /* --card: rgba(15, 16, 20, 0.88); */
   --text: #f5f5f7;
   --muted: #a6a7b2;
-  /* --orange: #ff650d; */
-  --orange: #ff6a00;           /* was #ff650d */
+  --orange: #ff6a00;
   --orange-bright: #ff8a2a;
-  /* --orange-bright: #ff7a18; */
   --border: rgba(255, 255, 255, 0.19);
 }
 
@@ -38,18 +35,6 @@ body {
 	radial-gradient(ellipse at 100% 0%,  rgba(255, 94, 0, 0.38), transparent 34rem),
   	radial-gradient(ellipse at 0% 100%,  rgba(255, 94, 0, 0.38), transparent 36rem),
   	#090a0d;
-  /* background: */
-  /*   radial-gradient( */
-  /*     ellipse at 100% 0%, */
-  /*     rgba(255, 83, 0, 0.18), */
-  /*     transparent 28rem */
-  /*   ), */
-  /*   radial-gradient( */
-  /*     ellipse at 0% 100%, */
-  /*     rgba(255, 87, 0, 0.18), */
-  /*     transparent 30rem */
-  /*   ), */
-  /*   #090a0d; */
 
   color: var(--text);
   font-family:
@@ -74,11 +59,6 @@ body::after {
   border-radius: 44% 56% 63% 37% / 43% 35% 65% 57%;
 }
 
-/* body::before { */
-/* } */
-/**/
-/* body::after { */
-/* } */
 body::before {
   width: 440px;
   height: 650px;
@@ -86,12 +66,6 @@ body::before {
   right: -150px;
   transform: rotate(-35deg);
 
-  /* background: linear-gradient( */
-  /*   145deg, */
-  /*   rgba(255, 94, 0, 0.28), */
-  /*   rgba(255, 94, 0, 0.015) 65% */
-  /* ); */
-  /* border: 1px solid rgba(255, 106, 23, 0.12); */
   background: linear-gradient(145deg, rgba(255, 110, 0, 0.55), rgba(255, 94, 0, 0.03) 65%);
   border: 1px solid rgba(255, 130, 40, 0.30);
 
@@ -104,13 +78,6 @@ body::after {
   bottom: -400px;
   left: -170px;
   transform: rotate(25deg);
-
-  /* background: linear-gradient( */
-  /*   25deg, */
-  /*   rgba(255, 91, 0, 0.32), */
-  /*   rgba(255, 91, 0, 0.015) 70% */
-  /* ); */
-  /* border: 1px solid rgba(255, 106, 23, 0.15); */
 
   background: linear-gradient(25deg, rgba(255, 110, 0, 0.60), rgba(255, 91, 0, 0.03) 70%);
   border: 1px solid rgba(255, 130, 40, 0.32);
@@ -139,16 +106,6 @@ main {
 
   border: 1px solid rgba(255, 130, 50, 0.75);   /* was 0.48 */
 
-/* box-shadow: */
-/*   0 0 0 1px rgba(255, 107, 20, 0.08), */
-/*   0 0 40px rgba(255, 100, 0, 0.28),           /* was 0.10 */ */
-/*   0 0 110px rgba(255, 85, 0, 0.16),           /* was 0.055 */ */
-/*   inset 0 1px 0 rgba(255, 255, 255, 0.05); */
-  /* box-shadow: */
-  /*   0 0 0 1px rgba(255, 107, 20, 0.035), */
-  /*   0 0 32px rgba(255, 91, 0, 0.10), */
-  /*   0 0 85px rgba(255, 75, 0, 0.055), */
-  /*   inset 0 1px 0 rgba(255, 255, 255, 0.035); */
   box-shadow:
     0 0 0 1px rgba(255, 107, 20, 0.08),
     0 0 40px rgba(255, 91, 0, 0.28),
@@ -231,9 +188,6 @@ h1 {
   box-shadow:
   0 0 30px rgba(255, 106, 0, 0.55),
   0 0 70px rgba(255, 106, 0, 0.25);
-  /* box-shadow: */
-  /*   0 0 24px rgba(255, 101, 13, 0.26), */
-  /*   0 0 55px rgba(255, 101, 13, 0.10); */
 }
 
 /* Hover effects */
@@ -286,11 +240,6 @@ h1 {
     border-radius: 23px;
   }
 
-/*   background: rgba(255, 101, 13, 0.12);         /* was 0.055 */ */
-/* border: 1px solid rgba(255, 130, 50, 0.6);    /* was 0.32 */ */
-/* box-shadow: */
-/*   0 0 24px rgba(255, 91, 0, 0.25), */
-/*   inset 0 0 14px rgba(255, 91, 0, 0.10); */
   main::before {
     margin-bottom: 34px;
     padding: 10px 12px;
