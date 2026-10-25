@@ -321,3 +321,23 @@ h1 {
 }
 .availability-icon { width: 28px; height: 28px; flex: none; color: #e8672a; }
 .availability p { margin: 0; }
+.inline-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-underline-offset: 3px;
+  transition: color 220ms ease, text-decoration-color 220ms ease;
+}
+
+.inline-link:focus-visible {
+  outline: 2px solid var(--orange-bright);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .inline-link:hover {
+    color: var(--orange-bright);
+    text-decoration-color: var(--orange-bright);
+  }
+}
